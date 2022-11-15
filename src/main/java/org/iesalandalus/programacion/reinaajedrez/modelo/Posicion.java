@@ -4,6 +4,11 @@ import java.util.Objects;
 
 public class Posicion {
 	@Override
+	public String toString() {
+		return String.format("Posicion [fila=ValorFila, columna=ValorColumna]", fila, columna);
+	}
+
+	@Override
 	public int hashCode() {
 		return Objects.hash(columna, fila);
 	}
