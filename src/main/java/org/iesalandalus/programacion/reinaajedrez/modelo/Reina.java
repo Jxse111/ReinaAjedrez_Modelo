@@ -25,5 +25,11 @@ public class Reina {
 		}
 		this.posicion = posicion;
 	}
+	public Reina() {
+		color = color.BLANCO;
+		posicion = new Posicion (1,'d');
+		
+		
+	}
 
 }
