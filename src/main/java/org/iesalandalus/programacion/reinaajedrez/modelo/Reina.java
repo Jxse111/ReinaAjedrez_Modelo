@@ -28,8 +28,15 @@ public class Reina {
 	public Reina() {
 		color = color.BLANCO;
 		posicion = new Posicion (1,'d');
-		
-		
 	}
+	public Reina(Color color) {
+		if (color == Color.NEGRO) {
+			posicion = new Posicion(1,'d');
+			this.color = color;
+	}else  if (color == Color .BLANCO){
+		posicion = new Posicion(1,'d');
+			this.color = color;
+	}
+}
 
 }
