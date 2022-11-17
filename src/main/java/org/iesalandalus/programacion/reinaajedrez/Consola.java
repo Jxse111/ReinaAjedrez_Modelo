@@ -93,8 +93,6 @@ public class Consola {
 			System.out.println("Inserte el número de pasos porfavor: ");
 			pasos = Entrada.entero();
 			return pasos;
-			
-		
 		
 	}
 		
